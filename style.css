@@ -92,13 +92,13 @@ header a {
   font-size: 50px;
   float: right;
   flex-direction: column;
-  padding: 100px 0px 0px 25px;
+  padding: 200px 0px 0px 200px;
 }
 
 #about-me p {
  float: right;
  text-align: right;
- padding: 0px 0px 5px 100px;
+ padding: 0px 0px 100px 250px;
  color: black;
  border-style: initial;
  border-width: 5px;
@@ -116,10 +116,20 @@ header a {
  padding: 0px 75px 500px 1000px;
 }
 
+.flex-row {
+  size: 25px;
+}
+
+
+
 #work h2 {
   display: inline;
 }
 
+.work a {
+size: 50px;
+border-image-width: auto;
+}
 .intro p {
   padding-top: 50px;
   text-align: center;
@@ -142,12 +152,17 @@ header a {
 .secondary-border {
   border-color: #000000;
 }
+
+#run-bud  {
+
+}
+
 /* WORK SECTION STYLES END */
 
 
 /* FOOTER STYLES START */
 footer {
-  background: #6a9ab6;
+  background: #ffffff;
   padding: 40px 35px;
   display: flex;
   justify-content: space-between;
@@ -160,9 +175,8 @@ footer {
   flex-direction: column;
   line-height: 1.7;
   color: #030303;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   font-size: 20px;
-  text-align: left;
 }
 /* END FOOTER STYLES */
